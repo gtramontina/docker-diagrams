@@ -9,7 +9,7 @@ tag = $(shell cat pyproject.toml | grep -e "^diagrams =" | awk -F '"' '{print $$
 # ---
 
 build.log: pyproject.toml Dockerfile Makefile
-	docker build -t $(image-name):$(tag) . | tee $@
+	@docker build -t $(image-name):$(tag) . | tee $@
 to-clobber += $(image-name):$(tag)
 to-clean += build.log
 
