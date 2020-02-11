@@ -13,7 +13,7 @@
 #### _Running:_
 
 ```sh
-$ cat <diagram-file>.py | docker run -i --rm -v $(pwd)/out:/out diagrams:<version>
+$ cat <diagram-file>.py | docker run -i --rm -v $(pwd)/out:/out gtramontina/diagrams:<version>
 ```
 
 The `/out` directory is where `diagram` will generate your PNGs.
