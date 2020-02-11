@@ -1,0 +1,9 @@
+[tool.poetry]
+name = "docker-diagrams"
+description = "docker-diagrams"
+version = "0.0.0-dev"
+authors = ["mingrammer <mingrammer@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "3.8.1"
+diagrams = "0.2.1"

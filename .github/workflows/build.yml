@@ -1,0 +1,24 @@
+name: Build docker image
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build docker image
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Test
+        run: make test
+      - name: Push
+        if: github.event_name != 'pull_request'
+        env:
+          DOCKER_USERNAME: ${{ secrets.DOCKER_USERNAME }}
+          DOCKER_PASSWORD: ${{ secrets.DOCKER_PASSWORD }}
+        run: |
+          docker login -u=$DOCKER_USERNAME -p=$DOCKER_PASSWORD
+          make push
