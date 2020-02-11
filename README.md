@@ -1,7 +1,7 @@
 <p align="center">
   <a href="https://hub.docker.com/r/gtramontina/diagrams/tags/"><img height="20" alt="Docker Tags" src="https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&label=%F0%9F%90%B3%20tags&colorB=066da5&query=$.count&uri=https%3A%2F%2Fhub.docker.com%2Fv2%2Frepositories%2Fgtramontina%2Fdiagrams%2Ftags"></a>
   <a href="https://hub.docker.com/r/gtramontina/diagrams/tags/"><img height="20" alt="Docker Latest Tag" src="https://img.shields.io/badge/dynamic/json.svg?style=for-the-badge&label=%F0%9F%90%B3%20latest%20tag&colorB=066da5&query=$.results[0].name&uri=https%3A%2F%2Fhub.docker.com%2Fv2%2Frepositories%2Fgtramontina%2Fdiagrams%2Ftags"></a>
-  <a href="https://travis-ci.org/gtramontina/docker-diagrams"><img height="20" alt="Travis" src="https://img.shields.io/travis/gtramontina/docker-diagrams.svg?style=for-the-badge"></a>
+  <a href="https://github.com/gtramontina/docker-diagrams/actions"><img height="20" alt="Build" src="https://img.shields.io/github/workflow/status/gtramontina/docker-diagrams/Build docker image/master?style=for-the-badge"></a>
 </p>
 
 <p align="center">
