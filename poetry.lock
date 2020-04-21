@@ -4,7 +4,7 @@ description = "Diagram as Code"
 name = "diagrams"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "0.4.0"
+version = "0.8.2"
 
 [package.dependencies]
 graphviz = ">=0.13.2,<0.14.0"
@@ -29,7 +29,7 @@ description = "A very fast and expressive template engine."
 name = "jinja2"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-version = "2.11.1"
+version = "2.11.2"
 
 [package.dependencies]
 MarkupSafe = ">=0.23"
@@ -46,21 +46,21 @@ python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
 version = "1.1.1"
 
 [metadata]
-content-hash = "1ec50681d083f7c15c65b15fcc5f9a89e0069c35993c65f67bf74972b23170ef"
-python-versions = "3.8.1"
+content-hash = "d228297e5054a85d757c2b2f3bd4ff7f552cf101e27d078f98c75ded86c11bb0"
+python-versions = "3.8.2"
 
 [metadata.files]
 diagrams = [
-    {file = "diagrams-0.4.0-py3-none-any.whl", hash = "sha256:8037e538ec05c951f18ad218124b44f305a8a31ecb4f0a82c1f377d379627f27"},
-    {file = "diagrams-0.4.0.tar.gz", hash = "sha256:a0a6360c0397b5df02d65f5bdf70604a9b97a55339c577021abe081d080b8ccd"},
+    {file = "diagrams-0.8.2-py3-none-any.whl", hash = "sha256:d1c744580282a3e725a8a8df76d5dc25710cd687ec5800ba62c821b7248522f5"},
+    {file = "diagrams-0.8.2.tar.gz", hash = "sha256:8d3a77827a268bf14fb79486c977dfb096689668aa0576c7a9cb60cdc6585f35"},
 ]
 graphviz = [
     {file = "graphviz-0.13.2-py2.py3-none-any.whl", hash = "sha256:241fb099e32b8e8c2acca747211c8237e40c0b89f24b1622860075d59f4c4b25"},
     {file = "graphviz-0.13.2.zip", hash = "sha256:60acbeee346e8c14555821eab57dbf68a169e6c10bce40e83c1bf44f63a62a01"},
 ]
 jinja2 = [
-    {file = "Jinja2-2.11.1-py2.py3-none-any.whl", hash = "sha256:b0eaf100007721b5c16c1fc1eecb87409464edc10469ddc9a22a27a99123be49"},
-    {file = "Jinja2-2.11.1.tar.gz", hash = "sha256:93187ffbc7808079673ef52771baa950426fd664d3aad1d0fa3e95644360e250"},
+    {file = "Jinja2-2.11.2-py2.py3-none-any.whl", hash = "sha256:f0a4641d3cf955324a89c04f3d94663aa4d638abe8f733ecd3582848e1c37035"},
+    {file = "Jinja2-2.11.2.tar.gz", hash = "sha256:89aab215427ef59c34ad58735269eb58b1a5808103067f7bb9d5836c651b3bb0"},
 ]
 markupsafe = [
     {file = "MarkupSafe-1.1.1-cp27-cp27m-macosx_10_6_intel.whl", hash = "sha256:09027a7803a62ca78792ad89403b1b7a73a01c8cb65909cd876f7fcebd79b161"},
