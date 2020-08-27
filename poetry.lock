@@ -47,7 +47,8 @@ version = "1.1.1"
 
 [metadata]
 content-hash = "798536d4642790571d8d0653ef3190b0a2139704435b8a620667401eaa05e448"
-python-versions = "3.8.2"
+lock-version = "1.0"
+python-versions = "3.8.5"
 
 [metadata.files]
 diagrams = [
