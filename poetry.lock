@@ -1,35 +1,35 @@
 [[package]]
-category = "main"
-description = "Diagram as Code"
 name = "diagrams"
+version = "0.18.0"
+description = "Diagram as Code"
+category = "main"
 optional = false
 python-versions = ">=3.6,<4.0"
-version = "0.17.0"
 
 [package.dependencies]
 graphviz = ">=0.13.2,<0.14.0"
 jinja2 = ">=2.10,<3.0"
 
 [[package]]
-category = "main"
-description = "Simple Python interface for Graphviz"
 name = "graphviz"
+version = "0.13.2"
+description = "Simple Python interface for Graphviz"
+category = "main"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*,!=3.4.*"
-version = "0.13.2"
 
 [package.extras]
 dev = ["tox (>=3.0)", "flake8", "pep8-naming", "wheel", "twine"]
 docs = ["sphinx (>=1.7)", "sphinx-rtd-theme"]
-test = ["mock (>=2)", "pytest (>=3.4,<3.10.0 || >3.10.0)", "pytest-mock (>=1.8)", "pytest-cov"]
+test = ["mock (>=2)", "pytest (>=3.4,!=3.10.0)", "pytest-mock (>=1.8)", "pytest-cov"]
 
 [[package]]
-category = "main"
-description = "A very fast and expressive template engine."
 name = "jinja2"
+version = "2.11.2"
+description = "A very fast and expressive template engine."
+category = "main"
 optional = false
 python-versions = ">=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*"
-version = "2.11.2"
 
 [package.dependencies]
 MarkupSafe = ">=0.23"
@@ -38,22 +38,22 @@ MarkupSafe = ">=0.23"
 i18n = ["Babel (>=0.8)"]
 
 [[package]]
-category = "main"
-description = "Safely add untrusted strings to HTML/XML markup."
 name = "markupsafe"
+version = "1.1.1"
+description = "Safely add untrusted strings to HTML/XML markup."
+category = "main"
 optional = false
 python-versions = ">=2.7,!=3.0.*,!=3.1.*,!=3.2.*,!=3.3.*"
-version = "1.1.1"
 
 [metadata]
-content-hash = "798536d4642790571d8d0653ef3190b0a2139704435b8a620667401eaa05e448"
-lock-version = "1.0"
+lock-version = "1.1"
 python-versions = "3.8.5"
+content-hash = "56a939d957e660f942d2660e9cd3a707c62b0a5d77f67ac57efd29a35881eb54"
 
 [metadata.files]
 diagrams = [
-    {file = "diagrams-0.17.0-py3-none-any.whl", hash = "sha256:7fe4b0f3baa2416c5ac9cbb69bba9d1ddf6d62524a035f4e2afb3118b310fba5"},
-    {file = "diagrams-0.17.0.tar.gz", hash = "sha256:86436166fd3a9b8dddb8ccce2716f458a55614527feedcb95ae4a8cdf5b7659f"},
+    {file = "diagrams-0.18.0-py3-none-any.whl", hash = "sha256:c4f0e070f4f68666b6de3c892339991089168fb2956c4900465123e522847b6a"},
+    {file = "diagrams-0.18.0.tar.gz", hash = "sha256:6f583c31cdbfec46ea12a0835ef1cc25a6d35d196a651a682f479dc53a04b12e"},
 ]
 graphviz = [
     {file = "graphviz-0.13.2-py2.py3-none-any.whl", hash = "sha256:241fb099e32b8e8c2acca747211c8237e40c0b89f24b1622860075d59f4c4b25"},
