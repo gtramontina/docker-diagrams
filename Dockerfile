@@ -1,4 +1,4 @@
-FROM python:3.9.2-alpine
+FROM python:3.9.4-alpine
 RUN apk add --update --no-cache \
     curl\
     graphviz\
