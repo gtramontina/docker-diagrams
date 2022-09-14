@@ -1,6 +1,6 @@
 [[package]]
 name = "diagrams"
-version = "0.21.1"
+version = "0.22.0"
 description = "Diagram as Code"
 category = "main"
 optional = false
@@ -19,9 +19,9 @@ optional = false
 python-versions = ">=3.7"
 
 [package.extras]
-dev = ["tox (>=3)", "flake8", "pep8-naming", "wheel", "twine"]
+dev = ["flake8", "pep8-naming", "tox (>=3)", "twine", "wheel"]
 docs = ["sphinx (>=1.8)", "sphinx-autodoc-typehints", "sphinx-rtd-theme"]
-test = ["pytest (>=6)", "pytest-mock (>=3)", "mock (>=4)", "pytest-cov", "coverage"]
+test = ["coverage", "mock (>=4)", "pytest (>=6)", "pytest-cov", "pytest-mock (>=3)"]
 
 [[package]]
 name = "jinja2"
@@ -48,12 +48,12 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.4"
-content-hash = "1d329985a054c217bd8e483706c7f5c6ce749934501c42d749d401e7d004176c"
+content-hash = "ec88953040994858d76a36f241b7be3441fcf36f499552f68b301ef6f7d6d3ee"
 
 [metadata.files]
 diagrams = [
-    {file = "diagrams-0.21.1-py3-none-any.whl", hash = "sha256:1d0fea187ed76136dadccf943da914dd9974ebdd3cbb993f4283ec8f51cf90f2"},
-    {file = "diagrams-0.21.1.tar.gz", hash = "sha256:732caa4e61113a06b9a80965be6171c4c5858f3570b5b1f5ba52304a6eeade60"},
+    {file = "diagrams-0.22.0-py3-none-any.whl", hash = "sha256:b61bac4a0afe6072d37ee21a08d46868fc9a251878035adf9097a4842bc86472"},
+    {file = "diagrams-0.22.0.tar.gz", hash = "sha256:39c183fab1705d4eae1213131d8eba377a55519e11b37d4c7dbe528aa447bcb5"},
 ]
 graphviz = [
     {file = "graphviz-0.19.2-py3-none-any.whl", hash = "sha256:c0a6ac9fadaa308c4ab0d526749c6e127425ec5a76644bbb03e2e04b19a9da9f"},

@@ -6,4 +6,4 @@ authors = ["mingrammer <mingrammer@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "3.10.4"
-diagrams = "0.21.1"
+diagrams = "0.22.0"
