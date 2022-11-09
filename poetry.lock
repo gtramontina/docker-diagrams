@@ -1,6 +1,6 @@
 [[package]]
 name = "diagrams"
-version = "0.22.0"
+version = "0.23.1"
 description = "Diagram as Code"
 category = "main"
 optional = false
@@ -48,12 +48,12 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "3.10.4"
-content-hash = "ec88953040994858d76a36f241b7be3441fcf36f499552f68b301ef6f7d6d3ee"
+content-hash = "540c2e5185e7f1dc961066025cdbb70b60353d1c89ab1a6c7182bddc73615a93"
 
 [metadata.files]
 diagrams = [
-    {file = "diagrams-0.22.0-py3-none-any.whl", hash = "sha256:b61bac4a0afe6072d37ee21a08d46868fc9a251878035adf9097a4842bc86472"},
-    {file = "diagrams-0.22.0.tar.gz", hash = "sha256:39c183fab1705d4eae1213131d8eba377a55519e11b37d4c7dbe528aa447bcb5"},
+    {file = "diagrams-0.23.1-py3-none-any.whl", hash = "sha256:64558979974a8a12aefbb8757c9118120b942c0e2a6c37862a250887eed301f1"},
+    {file = "diagrams-0.23.1.tar.gz", hash = "sha256:56230633ee70106ecea38b82dc447084a114055feddda6dc18d1faa1b96f0049"},
 ]
 graphviz = [
     {file = "graphviz-0.19.2-py3-none-any.whl", hash = "sha256:c0a6ac9fadaa308c4ab0d526749c6e127425ec5a76644bbb03e2e04b19a9da9f"},
