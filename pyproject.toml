@@ -5,5 +5,5 @@ version = "0.0.0-dev"
 authors = ["mingrammer <mingrammer@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "3.10.4"
+python = "3.11.1"
 diagrams = "0.23.1"
